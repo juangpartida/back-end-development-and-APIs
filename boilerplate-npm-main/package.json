@@ -3,23 +3,23 @@
 	"author": "Juan Guillermo Partida",
 	"description": "Back End Development & APIs -  Managing Packages with NPM Project",
 	"keywords": [
-		"freecodecamp",
-		"API",
-		"Back End"
-	  ],
+	  "freecodecamp",
+	  "API",
+	  "Back End"
+	],
 	"license": "MIT",
 	"version": "1.2.0",
 	"dependencies": {
-		"express": "^4.14.0",
-    	"@freecodecamp/example": "1.1.0"
-  },
+	  "express": "^4.14.0",
+	  "@freecodecamp/example": "1.1.0"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+	  "start": "node server.js"
 	},
 	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+	  "type": "git",
+	  "url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
 	}
-}
+  }
+  
