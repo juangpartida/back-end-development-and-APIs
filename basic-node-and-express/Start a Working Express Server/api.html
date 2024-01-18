@@ -1,0 +1,35 @@
+{
+    "name": "pws [HTML / JavaScript] Celtra Creative",
+    "type": {
+        "vendorId": 14,
+        "mediaType": "BANNER",
+        "videoType": null
+    },
+    "size": {
+        "width": 620,
+        "height": 366
+    },
+    "advertiserId": 97271,
+    "htmlAsset": "<div class=\"celtra-ad-v3\">
+        <img src=\"data:image/png,celtra\" style=\"display: none\" onerror=\"
+            (function(img) {
+                var params = {'accountId':'6554e4f7','clickUrl':'${ADELPHIC_CLICK_NOREDIRECT}','widthBreakpoint':'','expandDirection':'undefined','preferredClickThroughWindow':'new','clickEvent':'advertiser','externalAdServer':'Adelphic','tagVersion':'html-standard-7'};
+                [].slice.apply(img.parentNode.childNodes).forEach(function(n) { var decfs = { urldecode: decodeURIComponent, htmldecode: function(v) { var d = document.createElement('div'); d.innerHTML = v; return d.textContent; }, eval: function(v) { return eval(v); }, raw: function(v) { return v; } }; var m; if (n.nodeType == 8 && (m = n.textContent.match(/^\\s+([\\w%.]+)(\\[.+\\])?\\s+=\\s+(\\w+)\\s+(.*)$/i))) { try { params[m[1]+(m[2] || '')] = decfs[m[3]](m[4].replace(/^\\s+|\\s+$/g, '')); } catch (e) {} } });
+                var req = document.createElement('script');
+                req.id = params.scriptId = 'celtra-script-' + (window.celtraScriptIndex = (window.celtraScriptIndex||0)+1);
+                params.clientTimestamp = new Date/1000;
+                params.clientTimeZoneOffsetInMinutes = new Date().getTimezoneOffset();
+                params.hostPageLoadId=window.celtraHostPageLoadId=window.celtraHostPageLoadId||(Math.random()+'').slice(2);
+                var qs = '';
+                for (var k in params) {
+                    qs += '&' + encodeURIComponent(k) + '=' + encodeURIComponent(params[k]);
+                }
+                var src = 'https://ads.celtra.com/fa4498bc/web.js?' + qs;
+                req.src = src;
+                img.parentNode.insertBefore(req, img.nextSibling);
+            })(this);
+        \"/>
+    </div>",
+    "creativeType": "banner",
+    "creativeSubtype": null
+}
