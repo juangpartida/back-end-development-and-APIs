@@ -14,8 +14,10 @@ Express routes follow the structure `app.METHOD(PATH, HANDLER)`. Here:
 function(req, res) {
   res.send('Response String');
 }
+```
 
 This handler serves the string 'Response String'.
+
 
 ### Task
 Use the app.get() method to respond to GET requests at the root (/) path with the string "Hello Express". Ensure your code functions correctly by checking the logs. If using Replit, you can view the results in the preview.
